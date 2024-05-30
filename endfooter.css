@@ -1,0 +1,234 @@
+#footerwrapper {
+    background-image: url('space.jpeg'), Source('C:\Users\user\Desktop\wem\space.jpeg');
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, center center/*left top*/
+    ;
+    margin-right: 10px;
+    background-color: bisque;
+}
+
+#spacemyfooter {
+    padding: 40px 80px 300px 80px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footerlinks_1 {
+    width: auto;
+    float: left;
+    padding: 40px 30px;
+    color: #FFF4A3;
+    font-family: Source Sans Pro, sans-serif;
+    margin-right: 10px;
+}
+
+.footerlinks_1 .fa-logo {
+    font-size: 46px!important;
+    color: #ddd;
+}
+
+.footerlinks_1:nth-child(1) {
+    padding: 30px 10px 30px 40px;
+}
+
+.footerlinks_1 a {
+    text-decoration: none;
+}
+
+.footerlinks_1 a:hover,
+.footerlinks_1 a:active {
+    text-decoration: underline;
+    color: #FFF4A3;
+}
+
+.footerlinks_1 a:hover,
+.footerlinks_1 a:active {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.footerlinks_1 a:hover i {
+    color: #FFF4A3!important;
+}
+
+.footerlinks_2 {
+    width: auto;
+    float: left;
+    padding-left: 40px;
+    padding-right: 140px;
+    color: greenyellow font-size 12px;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.footerlinks_2:nth-child(4) {
+    padding-right: 0;
+}
+
+.footerlinks_2 h5 {
+    margin-bottom: 20px;
+}
+
+.footerlinks_2 a:visited,
+.footerlinks_2 a:link {
+    text-decoration: none;
+}
+
+.footerlinks_2 a:hover,
+.footerlinks_2 a:active {
+    color: #FFF4A3;
+}
+
+.footersome {
+    padding: 60px 40px 10px 40px;
+    color: #ddd;
+    font-size: 20px;
+}
+
+.footersome a {
+    margin-right: 10px;
+}
+
+.footersome a:hover,
+.footersome a:active {
+    color: #FFF4A3;
+}
+
+.footersome .textlink {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footersome .textlink:active,
+.footersome .textlink:hover {
+    text-decoration: underline;
+}
+
+.footertext {
+    padding-left: 40px;
+    color: #ddd;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footertext a:hover,
+.footertext a:active {
+    color: #FFF4A3;
+}
+
+@media screen and (max-width: 1200px) {
+    #footerwrapper {
+        background-size: 500px, auto;
+    }
+    .footerlinks_1 {
+        padding-left: 2.6%;
+        padding-right: 2.6%;
+    }
+    .footerlinks_2 {
+        padding-right: 8%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footerlinks_1 {
+        width: 100%;
+        margin: auto;
+        float: none;
+        text-align: center;
+        padding: 10px 20px!important;
+        font-size: 20px;
+    }
+    .footerlinks_1:nth-child(1) {
+        padding: 40px 20px;
+    }
+    .footerlinks_2 {
+        width: 100%;
+        float: none;
+        margin: auto;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0;
+        text-align: center;
+    }
+    .footerlinks_2 h5 {
+        font-size: 26px;
+        margin-top: 40px;
+    }
+    .footertext {
+        text-align: center;
+        padding: 0;
+    }
+    .footer-hide-special {
+        display: none;
+    }
+    #spacemyfooter {
+        padding-bottom: 400px;
+    }
+    .footersome {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #footerwrapper {
+        background-image: url('/images/lynx_landing.png'), url('/images/background_in_space.gif');
+        background-repeat: no-repeat, repeat;
+        background-position: center bottom, left top;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .footerlinks_1 {
+        padding-left: 2.5%;
+        padding-right: 1.5%;
+    }
+    .footerlinks_1:nth-child(1) {
+        width: 100%;
+        padding-left: 0;
+    }
+    .footerlinks_1:nth-child(2) {
+        padding-left: 0;
+    }
+    .footerlinks_2 {
+        padding-right: 2%;
+    }
+    .footerlinks_2:nth-child(1) {
+        padding-left: 0;
+    }
+    .footerlinks_2:nth-child(4) {
+        padding-right: 0;
+    }
+    #spacemyfooter {
+        padding-bottom: 400px;
+    }
+    .footertext {
+        padding-left: 0;
+    }
+    .footersome {
+        padding-left: 0;
+    }
+    .footer-hide-special {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #footerwrapper {
+        background-size: 500px, auto;
+    }
+    .footerlinks_1 {
+        padding-left: 1.8%;
+        padding-right: 1.8%;
+        margin-left: 10px;
+    }
+    .footerlinks_2 {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footersome {
+        padding: 45px 10px 30px 10px;
+    }
+}
